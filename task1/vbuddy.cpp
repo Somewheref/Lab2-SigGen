@@ -1041,6 +1041,7 @@ int vbdOpen() {
     // clear Vbuddy screen
     serial.flushReceiver();
     vbdClear();
+    printf("initialization completed.\n");
   }
   return(errorOpening);
 }
